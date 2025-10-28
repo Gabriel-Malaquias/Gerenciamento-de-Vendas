@@ -1,0 +1,53 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    background-color: rgb(60, 60, 161);
+    padding-top: 3.5%;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    width: 400px;
+    height: auto;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.entrada input {
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 8px;
+    width: 50%;
+}
+
+#btn{
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(60, 60, 161);
+    border: none;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 6%;
+}
+
+#btn:hover{
+    background-color: rgb(38, 3, 135);
+    transition: 1s;
+}
