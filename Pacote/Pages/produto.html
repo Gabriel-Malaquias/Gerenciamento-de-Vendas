@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descrição Produto</title>
+    <link rel="stylesheet" href="../CSS/produto.css"> 
+</head>
+<body>
+    <form action="" id="formulario" method="post">
+        <div >
+            <h1>Descrição de Produto</h1>
+
+            <div class="entrada">
+                <label for="nomeProd" id="nome">Nome do Produto</label>
+                <input type="text" id="nomeProd" name="nome"></input>
+            </div>
+
+            <div class="entrada">
+                <label for="infoProd" id="descricao">Descrição do Produto</label>
+                <input type="text" id="infoProd" name="desc"></input>
+            </div>
+
+            <div class="entrada">
+                <label for="precoKG" id="preco">Preço do Kg</label>
+                <input type="number" step="any" id="precoKG" name="preco"></input>
+            </div>
+
+            <div class="entrada">
+                <label for="pesoTOT" id="kilo">Peso Total do Produto</label>
+                <input type="number" step="any" id="pesoTOT" name="kg"></input>
+            </div>
+            
+            <p id="calculo"></p>
+
+            <button type="submit" id="btn">Cadastrar Produto</button>
+        </div>
+    </form>    
+    <script src="../JS/produto.js"></script>
+</body>
+</html>
